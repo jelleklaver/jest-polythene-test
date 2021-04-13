@@ -5,10 +5,6 @@ m = require('mithril')
 mq = require('mithril-query')
 TextField = require('polythene-mithril').TextField
 
-afterAll(() => {
-    global.window.close();
-})
-
 test('Test if textfield will render', () => {
     mq(TextField)
 })
